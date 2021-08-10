@@ -11,9 +11,7 @@ module.exports = {
   rules: {
     // Turns of Airbnb React prefer default export
     "import/no-unresolved": "off",
-    // Stupid rule for React
     "import/prefer-default-export": "off",
-    // Stupid rule for React
     "class-methods-use-this": "off",
     // If we turn this on, any regex we are using will be read as an error
     "no-useless-escape": "warn",
@@ -49,4 +47,5 @@ module.exports = {
       },
     ],
   },
+  plugins: ["unused-imports"]
 };
